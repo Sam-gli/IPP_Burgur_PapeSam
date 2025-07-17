@@ -13,8 +13,8 @@ class GestionnaireSeeder extends Seeder
         if (User::where('role', 'gestionnaire')->count() == 0) {
             User::create([
                 'name' => 'PapeSam',
-                'email' => 'papesam@ipp-burger.com',
-                'password' => 'Passer17#', // Assure-toi de changer ce mot de passe
+                'email' => 'papesam@ipp.com',
+                'password' => 'passer17#', // Assure-toi de changer ce mot de passe
                 'role' => 'gestionnaire',
             ]);
         }
