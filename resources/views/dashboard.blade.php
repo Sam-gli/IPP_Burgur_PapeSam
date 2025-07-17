@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<style>
+a   `q1<style>
     .custom-card {
         background: linear-gradient(145deg, #1a1a1a, #2d2d2d);
         border: 2px solid #ffd700;

@@ -14,7 +14,7 @@ class GestionnaireSeeder extends Seeder
             User::create([
                 'name' => 'PapeSam',
                 'email' => 'papesam@ipp.com',
-                'password' => 'passer17#', // Assure-toi de changer ce mot de passe
+                'password' => 'Passer17#', // Assure-toi de changer ce mot de passe
                 'role' => 'gestionnaire',
             ]);
         }
